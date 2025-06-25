@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Blog Article</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    header img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    .author-info {
+      background-color: #e3e3e3;
+      padding: 15px;
+      margin: 20px 0;
+      border-radius: 8px;
+    }
+    .author-info h3 {
+      margin: 0 0 5px 0;
+    }
+    .comment-section {
+      margin-top: 40px;
+      background-color: #f1f1f1;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    .comment-section form {
+      display: flex;
+      flex-direction: column;
+    }
+    .comment-section label {
+      margin: 10px 0 5px;
+    }
+    .comment-section input,
+    .comment-section textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      resize: vertical;
+    }
+    .comment-section button {
+      margin-top: 15px;
+      padding: 10px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .comment-section button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Title and Image Section -->
+  <header>
+    <h1>My Journey to Building Creative Projects</h1>
+    <img src="https://via.placeholder.com/800x300" alt="Blog cover image" />
+  </header>
+
+  <!-- Author Info -->
+  <div class="author-info">
+    <h3>Author: Meron Kassahun</h3>
+    <p>Posted on June 25, 2025</p>
+    <p>I’m a passionate creator and virtual assistant exploring the world of tech, design, and digital storytelling. Follow my journey as I learn, build, and share!</p>
+  </div>
+
+  <!-- Blog Content (Optional demo paragraph) -->
+  <article>
+    <p>Creating a structured blog layout is one of the best beginner-friendly HTML projects. It teaches you how to organize content, design a clean interface, and handle user interaction through forms. In this post, we explore how to build one from scratch using HTML and CSS.</p>
+  </article>
+
+  <!-- Comment Section -->
+  <section class="comment-section">
+    <h2>Leave a Comment</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="comment">Comment:</label>
+      <textarea id="comment" name="comment" rows="5" required></textarea>
+
+      <button type="submit">Post Comment</button>
+    </form>
+  </section>
+
+</body>
+</html>
